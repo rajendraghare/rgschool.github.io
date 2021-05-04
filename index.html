@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" translate="no">
    <head>
       <title></title>
       <style type="text/css">
@@ -12,7 +12,6 @@
          {
          border: 1px solid #ccc;
          border-collapse: collapse;
-		 width: 100%;
          }
          table th
          {
@@ -29,6 +28,7 @@
          {
          color: white;
          padding: 5px;
+		 font-size: 16px;
          border: 1px solid #ccc;
          }
          body{
@@ -57,9 +57,13 @@
          }
          table{
          margin: 0 auto;
-		 width: 100%;
          }
-         td, th {
+         th {
+         padding: 12px;
+         border: 2px dotted;
+         }
+		  td {
+		      font-size: 16px;
          padding: 12px;
          border: 2px dotted;
          }
@@ -67,6 +71,7 @@
          display: none;
          } 
       </style>
+	  <meta name="google" content="notranslate" />
    </head>
    <body>
       <div class="container">
@@ -80,9 +85,7 @@
          <hr />
          <label id="msg" style="color: red;"></label>
          <div id="myDIV">
-            <table  style="
-    width: 100%;
-">
+            <table >
                वर्ग  : <label id="v1" ></label>
                <hr />
                <thead>
@@ -125,8 +128,11 @@
 			<div id="textbox" style="
 				padding-top: 25px;
 				font-size: 16px;
+				font-weight: bold;
 				">
-			  <p class="alignleft">वर्गशिक्षक</p>
+			  <p class="alignleft" style="
+    padding-left: 32px;
+">वर्गशिक्षक</p>
 			  <p class="alignright"> प्राचार्य <br>
                                             (श्री. थिटे आर. एस.).</p>
 			</div> 
