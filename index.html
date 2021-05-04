@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <title></title>
@@ -21,13 +21,13 @@
          }
          table th
          {
-         padding: 10px;
+         padding: 5px;
          border: 1px solid #ccc;
          }
          table td
          {
          color: white;
-         padding: 18px;
+         padding: 5px;
          border: 1px solid #ccc;
          }
          body{
@@ -45,6 +45,12 @@
          background-color: #90a4ae;
          font-family: Lato;
          }
+		 .alignleft {
+			float: left;
+		} 
+		.alignright {
+			float: right;
+		}
          .container h2{
          text-align: center;
          }
@@ -52,7 +58,7 @@
          margin: 0 auto;
          }
          td, th {
-         padding: 18px;
+         padding: 12px;
          border: 2px dotted;
          }
          #myDIV {
@@ -62,7 +68,7 @@
    </head>
    <body>
       <div class="container">
-        <h2 style="color: lavenderblush;">श्री. छत्रपती संभाजीराजे माध्य. व उच्च माध्य. विद्यालय, जातेगाव बु।। </h2>
+	   <h2 style="color: lavenderblush;">श्री. छत्रपती संभाजीराजे माध्य. व उच्च माध्य. विद्यालय, जातेगाव बु।। </h2>
 	   
          <h2>वार्षिक निकाल - २०२० - २१ </h2>
                             परीक्षा क्रं  : <input id="first">
@@ -70,7 +76,6 @@
                          जन्म तारीख  (DD/MM/YYYY): <input id="second">
          <input type="button" id="upload" value="शोध" onclick="Upload()" />  
          <hr />
-    
          <label id="msg" style="color: red;"></label>
          <div id="myDIV">
             <table >
@@ -110,7 +115,17 @@
 					 <td id="r13"></td>
                   </tr>
                </tbody>
+			   
+			                 
             </table>
+			<div id="textbox" style="
+				padding-top: 25px;
+				font-size: 16px;
+				">
+			  <p class="alignleft">वर्गशिक्षक</p>
+			  <p class="alignright"> प्राचार्य <br>
+                                            (श्री. थिटे आर. एस.).</p>
+			</div> 
          </div>
       </div>
       <hr />
